@@ -1,6 +1,7 @@
 {
-  "name": "route-parameters",
+  "name": "vidly",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
-    "joi": "^17.12.3",
-    "mongoose": "^8.4.0"
-  },
-  "description": ""
+    "fawn": "^2.1.5",
+    "joi": "^17.13.0",
+    "joi-objectid": "^4.0.2",
+    "mongoose": "^8.3.3"
+  }
 }

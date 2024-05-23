@@ -16,8 +16,8 @@ router.post('/', async (req, res) => {
     // Saving data in MongoDB
     let customer = new Customer({ 
         name: req.body.name,
-        phone: req.body.phone, 
-        isGold: req.body.isGold
+        isGold: req.body.isGold,
+        phone: req.body.phone 
     });
     customer = await customer.save();
     
