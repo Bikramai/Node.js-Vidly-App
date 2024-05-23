@@ -43,7 +43,7 @@ router.post('/', async (req, res) => {
       .update('movies', { _id: movie._id }, {
         $inc: { numberInStock: -1 }
       })
-      .run();
+      .run(); //if you don't call run none of this operator will be performed.
     // rental = await rental.save();
   
     // movie.numberInStock--;
